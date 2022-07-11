@@ -1,0 +1,41 @@
+{
+    # TODO: edit these manually and accordingly in the respective versions
+    # basic dimensions of the time-series input encoded as
+    # INPUT_SHAPE -> (length x channels) = (SEQUENCE_LENGTH, CHANNELS)
+    'sequence_length' : 1024, 
+    'channels' : 16,
+    'base_architecture' : 'U-net',
+    'additional_architectures' : [],
+
+    # NOTE: params inherent to the architecture and the problem
+    'base_filter_count' : 16, 
+    'backbone_length' : 5, 
+    'concat_axis' : 2,
+
+    # number of anomaly classes encoded as CLASS_COUNT; might exceed 1
+    # as e. g. seasonal, time-independent etc. anomalies are differentiated
+    'class_count' : 2, 
+
+    # NOTE: params of the respective nodes in the architecture,
+    # see paper and docs for precise meaning 
+    'kernel_size' : {-1 : 3}, 
+    'pool_size' : {-1 : 4},
+    'dropout' : {-1 : 0.0},
+    'strides' : {-1 : 1},
+
+    # n-fold convolutions
+    'n_fold_convolutions' : 2,
+
+    # Attention params
+    'attention_kernel' : {-1 : 3},
+    'attention_intermediate' : {-1 : 0.2},
+
+    # Inception params
+    'inception_kernel_size' : {-1 : 3},
+
+    # meta params
+    'meta_length' : 0,
+    'meta_dropout' : 0.0,
+    'post_dense_meta_dropout' : {-1 : 0.0}
+}
+  

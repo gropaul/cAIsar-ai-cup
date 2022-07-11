@@ -1,0 +1,30 @@
+{
+    "seed": null,
+
+    # Drift
+    "drift_max": 0.11166,
+    "drift_points": 50,
+    "drift_kind": "multiplicative",
+    "drift_prob": 0.25,
+
+    # Noise
+    "noise_scale": 0.4,
+    "noise_prob": 0.25,
+
+    # Convolution
+    "convolve_window_type": "flattop",
+    "convolve_window_size": 11,
+    "convolve_prob": 0.25,
+
+    # Dropout
+    "dropout_percentage": 0.27,
+    "dropout_prob": 0.27,
+    "dropout_size": 4,
+    "dropout_fill": 0.0,
+
+    # TimeWarp
+    "time_warp_changes": 29,
+    "time_warp_max": 1.5,
+    "time_warp_prob": 0.5,
+
+}
