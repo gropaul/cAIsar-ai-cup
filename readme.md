@@ -15,6 +15,7 @@ Install the necessary dependencies by running the following command. Your termin
 ```shell
 pipenv shell
 pip install -r src/requirements.txt
+cd src
 pip install -e .
 ```
 Please use this virtual environment for the future commands.  
