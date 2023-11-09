@@ -1,3 +1,8 @@
+# Introduction
+
+The human gait is a complex mechanism that is subject to alteration by many pathologies that lead quickly to a loss of autonomy and an increased risk of falls. Analysing and understanding human gait could lead to applications in early detection and harm prevention for patients. An integral part of understanding the gait itself is being able to detect it in unlabelled time series sensor data to efficiently generate data for subsequent developments.	The aim of this project & paper is to demonstrate the feasibility of accurately labelling steps in multi-variate time-series data recorded from foot-worn inertia measurement units using a state-of-the-art deep learning approach based on CNNs. 
+
+The report can be found in the root directory of the repository.
 
 # Setup
 The following steps should lead you through the setup process for this repository. In case of any troubles during the setup and validation scripts, please feel free to contact the owner of the repository under paul.gross(at)philomatech.com.
